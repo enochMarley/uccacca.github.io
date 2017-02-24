@@ -1,0 +1,94 @@
+*{
+    font-family: 'arial',serif;
+}
+body{
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+.loginDiv{
+    background: red;
+}
+.loginForm label, .loginForm h4{
+    color: #fff !important;
+    text-align: center;
+}
+.loginForm{
+    margin-top: 25vh;
+    margin-bottom: 37vh;
+}
+.mdl-textfield{
+    width: 100%;
+}
+.loginForm input{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.loginForm button{
+    width: 100%;
+}
+.errMsg{
+    color: #fff;
+    text-align: center;
+}
+.loginDiv{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    background: red;
+    border: 1px solid transparent;
+}
+.navbar *{
+    color: #fff !important;
+}
+.mainDiv{
+    margin-top: 10vh;
+}
+.addBtn{
+    height: 70px;
+    width: 70px;
+    float: right;
+    border-radius: 50px;
+    background: red;
+    margin-top: 73vh;
+    position: fixed;
+    border: 1px solid transparent;
+    text-align: center;
+    box-shadow: 0px 3px 3px #111,0px 4px 8px #111;
+    margin-left: 2%;
+}
+.addBtn:hover{
+    background: red;
+}
+.contactDiv{
+    height: 70vh;
+    overflow-y: auto;
+}
+.square-card{
+    background: #e5eaf6;
+    transition: all 0.2s ease-in-out;
+    width: 95%;
+    margin-bottom:10px;
+}
+.square-card:hover{
+    box-shadow: 0px 5px 5px #c0c0c0,0px 6px 12px #c0c0c0;
+    transform: scale(1.01);
+}
+.contDetails{
+    font-size: 16px;
+    padding: 0px;
+}
+.contDetails li{
+    list-style-type: none;
+}
+.acts{
+    color: #111;
+    margin-left: 10px;
+}
+.editMemberForm input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #c0c0c0;
+}
